@@ -1,12 +1,12 @@
-function svmOF()
+function stat()
 {
-    document.querySelector("#mainO").innerHTML = "Support Vector Machine"
+    sta = document.querySelector("#state").value
+    dist = document.querySelector("#district").value
+    cro = document.querySelector("#crop").value
+    yea = document.querySelector("#year").value
+    sea = document.querySelector("#season").value
+    are = document.querySelector("#area").value
 }
 
-function gbOF()
-{
-    document.querySelector("#mainO").innerHTML = "Gradient Boost"
-}
 
-document.querySelector("#svmO").addEventListener("click",svmOF)
-document.querySelector("#gbO").addEventListener("click",gbOF)
+document.querySelector("#sub").addEventListener("click",stat)
